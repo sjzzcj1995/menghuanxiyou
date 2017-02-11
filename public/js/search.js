@@ -26,7 +26,7 @@ app.controller('searchControl',function ($scope,$http) {
         //点击进入筛选界面
         $scope.selecttagset = function() {
             $scope.selecttag = false;
-            //原生app突然更新了，两个  <  太丑了
+            //原生app突然更新了
             $('.search-bar .back').css('display', 'none');
         };
         //筛选的返回
@@ -46,50 +46,10 @@ app.controller('searchControl',function ($scope,$http) {
             })
         };
 
-        //点击选项，展开选项内容
-        $scope.sschoicestag = function(num) {
-            if(option[num]) {
-                $scope.choicesnow = num;
-                $('.propertys>li>ul').css('display', 'none');
-                $('.propertys>li>h4').css('backgroundImage', 'url(./img/search/bottom.png)');
-                option = [true, true, true, true, true];
-                option[num] = false;
-                $('.propertys>li').eq(num).find('h4').css('backgroundImage', 'url(./img/search/top.png)');
-                $('.propertys>li').eq(num).find('h4').next().css('display', 'block');
-            } else {
-                $scope.choicesnow = -1;
-                option[num] = true;
-                $('.propertys>li').eq(num).find('h4').css('backgroundImage', 'url(./img/search/bottom.png)');
-                $('.propertys>li').eq(num).find('h4').next().css('display', 'none');
-            }
-        };
+       
+        
 
-        //点击具体选项内容，显示到选项后面
-        $scope.choice = function(e) {
-            if($(e.target).attr('tag') == "true") {
-                $scope.choices[$scope.choicesnow] = $scope.choices[$scope.choicesnow] + $(e.target).text() + ',';
-                $(e.target).attr('tag', "false");
-                $(e.target).css({
-                    'background': '#e63535',
-                    'color': '#ffffff'
-                });
-            } else {
-                $(e.target).attr('tag', "true");
-                var arr = facfun.mytoarray($scope.choices[$scope.choicesnow]);
-                arr.splice(arr.indexOf($(e.target).text()), 1);
-                if(arr.length == 0) {
-                    $scope.choices[$scope.choicesnow] = '';
-                } else {
-                    $scope.choices[$scope.choicesnow] = arr.join(',') + ',';
-                }
-                $(e.target).css({
-                    'background': '#f5f5f5',
-                    'color': '#4d4d4d'
-                });
-            }
-
-        };
-
+        
         $http({
             url:'http://127.0.0.1:6587/seek'+ $scope.num,
             method:'get'
