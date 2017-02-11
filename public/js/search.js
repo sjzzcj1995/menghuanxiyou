@@ -26,6 +26,10 @@ app.controller('searchControl',function ($scope,$http) {
         //点击进入筛选界面
         $scope.selecttagset = function() {
             $scope.selecttag = false;
+<<<<<<< HEAD
+=======
+            //原生app突然更新了
+>>>>>>> master
             $('.search-bar .back').css('display', 'none');
         };
         //筛选的返回
@@ -44,7 +48,11 @@ app.controller('searchControl',function ($scope,$http) {
                 'color': '#ffffff'
             })
         };
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> master
        
         
 
