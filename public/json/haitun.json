@@ -1,0 +1,451 @@
+{
+	"status": 1,
+	"equip_list": [
+		{
+			"equipid": 1293330,
+			"subtitle": "119级",
+			"pass_fair_show": 1,
+			"server_name": "罗浮山",
+			"price": 158000,
+			"game_ordersn": "360_1430322533_361119880",
+			"status_desc": "被下单",
+			"equip_desc": "超级海豚;102131;119;1577;1116;1544;688;196;80;139;139;734;139;139;0;612;1577;1116;65432;16;1400;1400;4500;2500;1200;1200;1250;301|597|425|416;0;1;0;0;0;0;([\"summon_color\":0,\"summon_core\":([]),\"summon_equip2\":([\"cDesc\":\"#r等级 85 #r速度 +30#r耐久度 459#Y\",\"iType\":9209,]),\"jinjie\":([\"core\":([]),\"cnt\":0,\"lx\":0,]),\"summon_equip3\":([\"cDesc\":\"#r等级 85 #r防御 +72 伤害 +29#r耐久度 460#r#G#G灵力 +6#Y#Y\",\"iType\":9109,]),\"summon_equip1\":([\"cDesc\":\"#r等级 85 #r命中率 +14%#r耐久度 460#Y\",\"iType\":9309,]),])",
+			"storage_type": 2,
+			"kindid": 71,
+			"equip_name": "超级海豚",
+			"desc_sumup": "成长: 1.25 4技能",
+			"price_desc": "1580.00",
+			"highlight": [
+				[
+					"神兽",
+					70
+				]
+			],
+			"serverid": 2,
+			"equip_status": 3,
+			"icon": "img/best/290_102131.gif"
+		}, {
+			"equipid": 1575695,
+			"subtitle": "180级",
+			"pass_fair_show": 1,
+			"server_name": "绍兴兰亭",
+			"price": 439900,
+			"game_ordersn": "481_1472234260_482575916",
+			"status_desc": "已出售",
+			"equip_desc": "毗舍童子;102246;180;6158;1104;2509;904;383;86;625;190;895;190;200;0;904;6158;1295;18831;4;1578;1127;3825;1561;1351;1590;1288;405|401|411|434|425|416|404;0;1;10;23;0;5;([\"jinjie\":([\"core\":([]),\"new_type\":1,\"cnt\":7,\"lx\":100,]),\"summon_color\":1,\"summon_equip2\":([\"cDesc\":\"#r等级 95 #r气血 +69 速度 +35 伤害 +50#r耐久度 38#Y#r#c4DBAF4套装效果：附加状态#c4DBAF4善恶有报#Y#Y#r#W制造者：●¨。风儿吹#Y#r#r镶嵌效果 #r+42速度 镶嵌等级：7\",\"iType\":9210,]),\"summon_core\":([919:({3,0,([]),}),901:({5,0,([]),}),932:({5,0,([]),}),907:({5,0,([]),}),913:({5,0,([]),}),904:({5,0,([]),}),]),\"summon_equip1\":([\"cDesc\":\"#r等级 115 #r命中率 +13% 气血 +73 伤害 +50#r耐久度 177#Y#r#c4DBAF4套装效果：附加状态#c4DBAF4善恶有报#Y#Y#r#W制造者：傲天メ梦笑颜#Y#r#r镶嵌效果 #r+70伤害 镶嵌等级：7\",\"iType\":9312,]),\"summon_equip3\":([\"cDesc\":\"#r等级 115 #r伤害 +57 防御 +102#r耐久度 129#Y#r#c4DBAF4套装效果：附加状态#c4DBAF4善恶有报#Y#Y#r#W制造者：木头刃#Y#r#r镶嵌效果 #r+210气血 镶嵌等级：7\",\"iType\":9112,]),])",
+			"storage_type": 2,
+			"kindid": 69,
+			"equip_name": "毗舍童子",
+			"desc_sumup": "成长: 1.288 7技能",
+			"price_desc": "4399.00",
+			"highlight": [
+				[
+					"高连",
+					70
+				],
+				[
+					"成长1.288",
+					40
+				],
+				[
+					"攻资1578",
+					40
+				]
+			],
+			"serverid": 377,
+			"equip_status": 6,
+			"icon": "img/best/102246.gif"
+		}, {
+			"equipid": 4512578,
+			"subtitle": "180级",
+			"pass_fair_show": 1,
+			"server_name": "生日快乐",
+			"price": 159900,
+			"game_ordersn": "1054_1472904184_1058514143",
+			"status_desc": "已出售",
+			"equip_desc": "狂豹;102128;180;5549;1556;2186;835;261;100;582;206;907;199;190;0;937;5549;1556;4910;8;1532;1020;4091;2122;1048;1289;1284;413|404|411|405|409|425|301;0;1;10;0;0;0;([\"jinjie\":([\"new_type\":0,\"lx\":92,\"cnt\":7,\"core\":([\"fix_st\":0,\"name\":\"识物\",\"effect\":\"#Y召唤兽套装附带的技能为法术技能时，触发概率提高#G5%#Y。全属性降低#R4#Y。\",\"id\":725,]),]),\"summon_core\":([902:({5,0,([]),}),901:({5,0,([]),}),907:({5,0,([]),}),913:({5,0,([]),}),904:({5,0,([]),}),]),\"summon_equip2\":([\"cDesc\":\"#r等级 105 #r气血 +42 速度 +26#r耐久度 219 修理失败 1次#Y#r#c4DBAF4套装效果：附加状态#c4DBAF4壁垒击破#Y#Y#r#W制造者：普陀★妖姬#Y\",\"iType\":9211,]),\"summon_equip3\":([\"cDesc\":\"#r等级 95 #r防御 +66#r耐久度 316 修理失败 1次#Y#r#c4DBAF4套装效果：附加状态#c4DBAF4壁垒击破#Y#Y#r#W制造者：ぺんi丨Lady#Y\",\"iType\":9110,]),\"summon_color\":1,\"summon_equip1\":([\"cDesc\":\"#r等级 95 #r命中率 +14%#r耐久度 94 修理失败 2次#Y#r#c4DBAF4套装效果：附加状态#c4DBAF4壁垒击破#Y#Y#r#W制造者：べ心寒⒔#Y\",\"iType\":9310,]),])",
+			"storage_type": 2,
+			"kindid": 69,
+			"equip_name": "狂豹",
+			"desc_sumup": "成长: 1.284 7技能",
+			"price_desc": "1599.00",
+			"highlight": [
+				[
+					"高连",
+					70
+				],
+				[
+					"成长1.284",
+					40
+				],
+				[
+					"攻资1532",
+					40
+				]
+			],
+			"serverid": 527,
+			"equip_status": 6,
+			"icon": "img/best/299_102128.gif"
+		}, {
+			"equipid": 40968,
+			"sell_expire_time_desc": "2天1小时54分钟",
+			"subtitle": "100级",
+			"pass_fair_show": 0,
+			"server_name": "超凡入圣",
+			"price": 2666600,
+			"game_ordersn": "1331_1474295587_1331040971",
+			"status_desc": "公示期",
+			"equip_desc": "#r等级 100 五行 火#r#r命中 +706 伤害 +386#r耐久度 595#r锻炼等级 10 镶嵌宝石 红玛瑙#r#G#G力量 +26#Y#Y#r#c4DBAF4特效：#c4DBAF4无级别限制#Y#r#G开运孔数：4孔/4孔#G#r符石: 体质 +1 伤害 +1.5#n#G#r符石: 速度 +1.5#n#G#r符石: 敏捷 +1 伤害 +1.5#n#G#r符石: 魔力 +1 伤害 +1.5#n#r#cEE82EE符石组合: 六道轮回符石#r门派条件：阴曹地府 #r部位条件：武器 #r增加门派技能六道轮回等级4级#Y#r#W制造者：0O0爆★爆0O0强化打造#Y ",
+			"storage_type": 1,
+			"kindid": 11,
+			"equip_name": "沧海",
+			"desc_sumup": "命中 +706 伤害 +386 锻10级 4孔",
+			"price_desc": "26666.00",
+			"highlight": [
+				[
+					"无级别限制",
+					100
+				],
+				[
+					"10锻",
+					50
+				],
+				[
+					"初总伤538",
+					40
+				]
+			],
+			"serverid": 795,
+			"equip_status": 2,
+			"icon": "img/best/1850.gif"
+		}, {
+			"equipid": 285539,
+			"sell_expire_time_desc": "13天4小时44分钟",
+			"subtitle": "1级",
+			"pass_fair_show": 1,
+			"server_name": "群雄逐鹿",
+			"price": 250000,
+			"game_ordersn": "1298_1453053631_1298285599",
+			"status_desc": "上架中",
+			"equip_desc": "超级土地公公;102311;1;155;80;26;35;25;80;21;21;21;21;21;5;33;155;80;65432;2;1400;1400;4500;2500;1200;1200;1200;663|573|411;0;1;0;0;0;0;([\"jinjie\":([\"core\":([]),\"cnt\":0,\"lx\":0,]),\"summon_color\":0,\"summon_core\":([]),])",
+			"storage_type": 2,
+			"kindid": 71,
+			"equip_name": "超级土地公公",
+			"desc_sumup": "成长: 1.2 3技能",
+			"price_desc": "2500.00",
+			"highlight": [
+				[
+					"神兽",
+					70
+				]
+			],
+			"serverid": 762,
+			"equip_status": 2,
+			"icon": "img/best/102311.gif"
+		}, {
+			"equipid": 2071833,
+			"sell_expire_time_desc": "13天4小时33分钟",
+			"subtitle": "180级",
+			"pass_fair_show": 1,
+			"server_name": "青花瓷",
+			"price": 147700,
+			"game_ordersn": "1088_1470729975_1089508660",
+			"status_desc": "上架中",
+			"equip_desc": "毗舍童子;102246;180;4193;1483;2449;945;493;100;416;195;968;190;280;0;887;4193;1503;7840;8;1501;1209;4095;2079;1477;1023;1291;401|405|414|411|304|425|334;0;0;3;0;0;0;([\"jinjie\":([\"lx\":91,\"new_type\":1,\"cnt\":7,\"core\":([\"effect\":\"#Y第二回合以后进场时，#G100%#Y概率对自身造成30%气血上限的伤害并且无视敌方神佑、鬼魂类技能，持续4回合。气血上限降低#R6%#Y。（带有鬼魂或神佑类技能时，进场时对自身造成60%气血上限伤害）\",\"name\":\"灵断\",\"fix_st\":0,\"id\":720,]),]),\"summon_color\":0,\"summon_equip3\":([\"cDesc\":\"#r等级 115 #r防御 +108 伤害 +41#r耐久度 34#Y#r#c4DBAF4套装效果：附加状态#c4DBAF4夜战#Y#Y#r#W制造者：＂魑魅で柴#Y#r#r镶嵌效果 #r+90气血 镶嵌等级：3\",\"iType\":9112,]),\"summon_equip2\":([\"cDesc\":\"#r等级 85 #r速度 +26 伤害 +29#r耐久度 40 修理失败 1次#r#G#G力量 +12#Y#Y#r#c4DBAF4套装效果：附加状态#c4DBAF4夜战#Y#Y#r#r镶嵌效果 #r+18速度 镶嵌等级：3\",\"iType\":9209,]),\"summon_equip1\":([\"cDesc\":\"#r等级 105 #r伤害 +36 命中率 +15%#r耐久度 37#r#G#G法力 +5#Y#Y#r#c4DBAF4套装效果：附加状态#c4DBAF4夜战#Y#Y#r#W制造者：＂魑魅で柴#Y#r#r镶嵌效果 #r+40伤害 镶嵌等级：4\",\"iType\":9311,]),\"summon_core\":([919:({1,0,([]),}),902:({5,0,([]),}),901:({5,0,([]),}),932:({5,0,([]),}),907:({5,0,([]),}),913:({5,0,([]),}),]),])",
+			"storage_type": 2,
+			"kindid": 69,
+			"equip_name": "毗舍童子",
+			"desc_sumup": "成长: 1.291 7技能",
+			"price_desc": "1477.00",
+			"highlight": [
+				[
+					"高连",
+					70
+				],
+				[
+					"成长1.291",
+					40
+				],
+				[
+					"攻资1501",
+					40
+				]
+			],
+			"serverid": 558,
+			"equip_status": 2,
+			"icon": "img/best/102246.gif"
+		}, {
+			"equipid": 4613344,
+			"sell_expire_time_desc": "13天4小时27分钟",
+			"subtitle": "100级",
+			"pass_fair_show": 1,
+			"server_name": "2008",
+			"price": 147500,
+			"game_ordersn": "336_1469201266_340615544",
+			"status_desc": "上架中",
+			"equip_desc": "#r等级 100 五行 水#r#r敏捷 +36 防御 +61#r耐久度 336#r锻炼等级 10 镶嵌宝石 黑宝石#r#G#G速度 +80#Y#Y#r#c4DBAF4特技：#c4DBAF4弱点击破#Y#Y#r#c4DBAF4套装效果：附加状态逆鳞#Y#Y#r#G开运孔数：4孔/4孔#G#r符石: 力量 +1#n#G#r符石: 敏捷 +1 防御 +3#n#G#r符石: 体质 +1 伤害 +1.5#n#G#r符石: 敏捷 +1 防御 +3#n#G#r星位：防御 +5#n#G#r星相互合：敏捷 +2#r#cEE82EE符石组合: 法天象地符石#r门派条件：凌波城 #r部位条件：靴 #r增加门派技能法天象地等级4级#Y#r#W制造者：天若こ有情#Y#r#Y熔炼效果：#r#Y#r+7防御 +6敏捷 #r#Y ",
+			"storage_type": 1,
+			"kindid": 19,
+			"equip_name": "平步青云",
+			"desc_sumup": "敏捷 +36 防御 +61 锻10级 4孔",
+			"price_desc": "1475.00",
+			"highlight": [
+				[
+					"弱点击破",
+					50
+				],
+				[
+					"10锻",
+					50
+				],
+				[
+					"逆鳞套装",
+					40
+				]
+			],
+			"serverid": 459,
+			"equip_status": 2,
+			"icon": "img/best/2752.gif"
+		}, {
+			"equipid": 1134173,
+			"sell_expire_time_desc": "13天4小时20分钟",
+			"subtitle": "140级",
+			"pass_fair_show": 1,
+			"server_name": "鼓浪屿",
+			"price": 450000,
+			"game_ordersn": "170_1459660319_171134549",
+			"status_desc": "上架中",
+			"equip_desc": "#r等级 140 五行 水#r#r防御 +265#r耐久度 500#r#G#G耐力 +26#Y #G敏捷 +33#Y#Y#r#c4DBAF4特技：#c4DBAF4凝气诀#Y#Y#r#c4DBAF4特效：#c4DBAF4永不磨损#Y#r#W制造者：莫灬言情〃强化打造#Y ",
+			"storage_type": 1,
+			"kindid": 18,
+			"equip_name": "金丝鱼鳞甲",
+			"desc_sumup": "防御 +265",
+			"price_desc": "4500.00",
+			"highlight": [
+				[
+					"永不磨损",
+					80
+				],
+				[
+					"敏耐双加59",
+					60
+				],
+				[
+					"初防265",
+					50
+				]
+			],
+			"serverid": 234,
+			"equip_status": 2,
+			"icon": "img/best/2656.gif"
+		}, {
+			"equipid": 1629340,
+			"sell_expire_time_desc": "13天4小时17分钟",
+			"subtitle": "155级",
+			"pass_fair_show": 1,
+			"server_name": "牡丹亭",
+			"price": 215000,
+			"game_ordersn": "100_1472826072_101247930",
+			"status_desc": "上架中",
+			"equip_desc": "超级灵狐;102266;155;3159;1825;2222;955;312;100;316;175;964;175;181;0;876;3408;1825;65432;8;1600;1600;5500;3500;1400;1400;1300;425|416|551|301|422;0;1;0;21;0;0;([\"jinjie\":([\"cnt\":0,\"core\":([]),\"lx\":0,]),\"summon_core\":([902:({1,1,([]),}),901:({1,0,([]),}),907:({1,0,([]),}),]),\"summon_equip3\":([\"iType\":9110,\"cDesc\":\"#r等级 95 #r防御 +68 魔法 +58#r耐久度 133 修理失败 2次#r#G#G敏捷 +6#Y#Y#r#c4DBAF4套装效果：附加状态#c4DBAF4高级连击#Y#Y#r#W制造者：＇自由丿丶#Y#r#r镶嵌效果 #r+30气血 镶嵌等级：1\",]),\"summon_equip2\":([\"iType\":9211,\"cDesc\":\"#r等级 105 #r速度 +27#r耐久度 197 修理失败 3次#Y#r#c4DBAF4套装效果：附加状态#c4DBAF4高级连击#Y#Y#r#W制造者：侠客〃花情祭#Y#r#r镶嵌效果 #r+18速度 镶嵌等级：3\",]),\"summon_equip1\":([\"iType\":9310,\"cDesc\":\"#r等级 95 #r伤害 +27 命中率 +11%#r耐久度 30#Y#r#c4DBAF4套装效果：附加状态#c4DBAF4高级连击#Y#Y#r#W制造者：℃白展堂#Y#r#r镶嵌效果 #r+20伤害 镶嵌等级：2\",]),\"summon_color\":0,])",
+			"storage_type": 2,
+			"kindid": 71,
+			"equip_name": "超级灵狐",
+			"desc_sumup": "成长: 1.3 5技能",
+			"price_desc": "2150.00",
+			"highlight": [
+				[
+					"神兽",
+					70
+				]
+			],
+			"serverid": 192,
+			"equip_status": 2,
+			"icon": "img/best/102266.gif"
+		}, {
+			"equipid": 1256845,
+			"sell_expire_time_desc": "13天4小时15分钟",
+			"subtitle": "150级",
+			"pass_fair_show": 1,
+			"server_name": "茶山竹海",
+			"price": 5666600,
+			"game_ordersn": "1011_1470401924_1011852106",
+			"status_desc": "上架中",
+			"equip_desc": "#r等级 150 五行 火#r#r伤害 +633 命中 +1049#r耐久度 59#r锻炼等级 15 镶嵌宝石 太阳石、 红玛瑙#r#G#G敏捷 +36#Y #G耐力 +24#Y#r#G开运孔数：5孔/5孔#G#r符石: 气血 +15 速度 +1.5#n#G#r符石: 气血 +15 速度 +1.5#n#G#r符石: 敏捷 +1 伤害 +1.5#n#G#r符石: 气血 +15 速度 +1.5#n#G#r符石: 力量 +1 速度 +1.5#n#G#r星位：防御 +7#n#G#r星相互合：体质 +2#r#cEE82EE符石组合: 无双一击符石#r门派条件：大唐官府 #r部位条件：武器 #r增加门派技能无双一击等级6级#Y#r#W制造者：专注打造30年强化打造#Y#r#Y熔炼效果：#r#Y#r+5耐力#Y ",
+			"storage_type": 1,
+			"kindid": 14,
+			"equip_name": "业火三灾",
+			"desc_sumup": "伤害 +633 命中 +1049 锻15级 5孔",
+			"price_desc": "56666.00",
+			"highlight": [
+				[
+					"15锻",
+					100
+				],
+				[
+					"初总伤857",
+					90
+				],
+				[
+					"初伤617",
+					90
+				]
+			],
+			"serverid": 482,
+			"equip_status": 2,
+			"icon": "img/best/319_1170.gif"
+		}, {
+			"equipid": 3028227,
+			"sell_expire_time_desc": "13天4小时2分钟",
+			"subtitle": "100级",
+			"pass_fair_show": 1,
+			"server_name": "南阳府",
+			"price": 2000000,
+			"game_ordersn": "567_1474041049_567614451",
+			"status_desc": "上架中",
+			"storage_type": 1,
+			"kindid": 61,
+			"equip_name": "金麟绕",
+			"desc_sumup": "防御 +21 附加属性3条",
+			"price_desc": "20000.00",
+			"highlight": [
+				[
+					"伤害x3",
+					60
+				]
+			],
+			"serverid": 414,
+			"equip_status": 2,
+			"icon": "img/best/27003.gif"
+		}, {
+			"equipid": 1255246,
+			"sell_expire_time_desc": "13天4小时1分钟",
+			"subtitle": "100级",
+			"pass_fair_show": 1,
+			"server_name": "日光岩",
+			"price": 1377700,
+			"game_ordersn": "345_1463040570_345591039",
+			"status_desc": "上架中",
+			"equip_desc": "#r等级 100 五行 火#r#r防御 +63 魔法 +121#r耐久度 136#r锻炼等级 13 镶嵌宝石 太阳石、 红玛瑙#r#G#G伤害 +32#Y #G命中 +225#Y#Y#r#c4DBAF4特技：#c4DBAF4弱点击破#Y#Y#r#c4DBAF4特效：#c4DBAF4无级别限制#Y#r#c4DBAF4套装效果：追加法术满天花雨#Y#Y#r#G开运孔数：4孔/4孔#G#r符石: 力量 +1 防御 +3#n#G#r符石: 敏捷 +1 伤害 +1.5#n#G#r符石: 力量 +1#n#G#r符石: 力量 +1 防御 +3#n#G#r星位：法伤 +2.5#n#G#r星相互合：力量 +2#r#cEE82EE符石组合: 天降大任#r门派条件：无#r部位条件：无#r无视召唤兽10%的物理防御进行攻击(该组合全身只有一件装备起效)#Y#r#W制造者：冰豆腐#Y#r#Y熔炼效果：#r#Y#r+7防御 -21魔法 #r#Y ",
+			"storage_type": 1,
+			"kindid": 58,
+			"equip_name": "寒雉霜蚕",
+			"desc_sumup": "防御 +63 魔法 +121 锻13级 4孔",
+			"price_desc": "13777.00",
+			"highlight": [
+				[
+					"无级别限制",
+					100
+				],
+				[
+					"13锻",
+					80
+				],
+				[
+					"弱点击破",
+					50
+				]
+			],
+			"serverid": 304,
+			"equip_status": 2,
+			"icon": "img/best/2562.gif"
+		}, {
+			"equipid": 4542171,
+			"sell_expire_time_desc": "13天15小时51分钟",
+			"subtitle": "100级",
+			"pass_fair_show": 1,
+			"server_name": "生日快乐",
+			"price": 245000,
+			"game_ordersn": "1054_1473696805_1058543740",
+			"status_desc": "上架中",
+			"equip_desc": "#r等级 100 五行 火#r#r伤害 +406 命中 +676#r耐久度 475#r锻炼等级 10 镶嵌宝石 红玛瑙#Y#r#c4DBAF4特效：#c4DBAF4永不磨损#Y#r#G开运孔数：4孔/4孔#Y #r#W制造者：belovedの酷强化打造#Y ",
+			"storage_type": 1,
+			"kindid": 10,
+			"equip_name": "太极",
+			"desc_sumup": "伤害 +406 命中 +676 锻10级 4孔",
+			"price_desc": "2450.00",
+			"highlight": [
+				[
+					"永不磨损",
+					80
+				],
+				[
+					"初伤406",
+					60
+				],
+				[
+					"10锻",
+					50
+				]
+			],
+			"serverid": 527,
+			"equip_status": 2,
+			"icon": "img/best/1550.gif"
+		}, {
+			"equipid": 1125935,
+			"sell_expire_time_desc": "3小时44分钟",
+			"subtitle": "150级",
+			"pass_fair_show": 1,
+			"server_name": "齐云楼",
+			"price": 460000,
+			"game_ordersn": "397_1436894502_398023905",
+			"status_desc": "上架中",
+			"equip_desc": "#r等级 150 五行 土#r#r命中 +903 伤害 +555#r耐久度 590#r锻炼等级 11 镶嵌宝石 红玛瑙#Y#r#c4DBAF4特效：#c4DBAF4永不磨损#Y#r#G开运孔数：5孔/5孔#Y #r#W制造者：EndDay缸炮强化打造#Y ",
+			"storage_type": 1,
+			"kindid": 52,
+			"equip_name": "云雷万里",
+			"desc_sumup": "命中 +903 伤害 +555 锻11级 5孔",
+			"price_desc": "4600.00",
+			"highlight": [
+				[
+					"永不磨损",
+					80
+				],
+				[
+					"11锻",
+					60
+				],
+				[
+					"初总伤764",
+					40
+				]
+			],
+			"serverid": 326,
+			"equip_status": 2,
+			"icon": "img/best/2370.gif"
+		}, {
+			"equipid": 1458938,
+			"sell_expire_time_desc": "13天3小时41分钟",
+			"subtitle": "100级",
+			"pass_fair_show": 1,
+			"server_name": "状元坊",
+			"price": 350000,
+			"game_ordersn": "74_1470843989_75459378",
+			"status_desc": "上架中",
+			"equip_desc": "#r等级 100 五行 火#r#r命中 +378 伤害 +489#r耐久度 71#r锻炼等级 10 镶嵌宝石 太阳石#r#G#G耐力 +23#Y #G敏捷 +15#Y#r#c4DBAF4特技：#c4DBAF4玉清诀#Y#Y#r#G开运孔数：4孔/4孔#G#r符石: 气血 +15 速度 +1.5#n#G#r符石: 气血 +15 速度 +1.5#n#G#r符石: 气血 +15 速度 +1.5#n#G#r符石: 气血 +15 速度 +1.5#n#G#r星位：伤害 +2.5#n#G#r星相互合：体质 +2#r#cEE82EE符石组合: 万丈霞光#r门派条件：无#r部位条件：无#r增加8点恢复气血效果，包括师门技能和特技#Y#r#W制造者：渺茫の眼镜强化打造#Y#r#Y熔炼效果：#r#Y#r+3敏捷#Y ",
+			"storage_type": 1,
+			"kindid": 14,
+			"equip_name": "冷月",
+			"desc_sumup": "命中 +378 伤害 +489 锻10级 4孔",
+			"price_desc": "3500.00",
+			"highlight": [
+				[
+					"玉清诀",
+					80
+				],
+				[
+					"初伤409",
+					60
+				],
+				[
+					"10锻",
+					50
+				]
+			],
+			"serverid": 82,
+			"equip_status": 2,
+			"icon": "img/best/1150.gif"
+		}
+	],
+	"is_login": false
+}

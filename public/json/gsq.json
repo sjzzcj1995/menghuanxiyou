@@ -1,0 +1,18 @@
+[
+	{
+		"img":"img/search/gsq/zhs.png",
+		"name":"召唤兽"
+	},{
+		"img":"img/search/gsq/wq.png",
+		"name":"武器"
+	},{
+		"img":"img/search/gsq/fj.png",
+		"name":"防具"
+	},{
+		"img":"img/search/gsq/ls.png",
+		"name":"灵饰"
+	},{
+		"img":"img/search/gsq/qt.png",
+		"name":"其他"
+	}
+]
