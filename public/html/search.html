@@ -2,7 +2,106 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="../css/search.css" />
     </head>
-    <body>
+    <body ng-controller="searchControl">
+    <!-- 搜索条 -->
+        <div class="search-bar">
+            <a href="#/" class="back" ng-show="tag">&lt;</a>
+            <input type="text" id="search-msg" placeholder="超级神羊" ng-focus="search(true)" ng-module="searchmsg"/>
+            <a href="#/search" class="cancel" ng-show="!tag" ng-click="search(false)">取消</a>
+        </div>
+        <div class="suggest ng-hide" ng-show="suggestdiv">
+            <ul class="suggest">
+                <li ng-repeat="x in suggest|filter:searchmsg" ng-click="suggestpick()"></li>
+            </ul>
+        </div>
+        <div class="search-view ng-hide" ng-show="!tag">
+            <div class="hot-search">
+                <h4>热门搜索</h4>
+                <ul>
+                    <li ng-click="hotpick(0)">大唐官府</li>
+                    <li ng-click="hotpick(1)">无级别</li>
+                    <li ng-click="hotpick(2)">简易</li>
+                </ul>
+            </div>
+            <div class="search-history">
+                <ul>
+                    <li>历史搜索</li>
+                </ul>
+                <div class="clean-history">
+                    <h4 ng-click="cleanhistory()">清空历史搜索</h4>
+                </div>
+            </div>
+        </div>
+    <!-- 主体分为左右两块 -->
+        <div id="main">
+            <div id="main-left">
+                <ul>
+                    <li ng-click="dj1()">推荐</li>
+                    <li ng-click="dj2()">角色</li>
+                    <li ng-click="dj3()">召唤兽</li>
+                    <li ng-click="dj4()">武器</li>
+                    <li ng-click="dj5()">防具</li>
+                    <li ng-click="dj6()">灵饰</li>
+                    <li ng-click="dj7()">其他</li>
+                    <li ng-click="dj8()">公示期</li>
+                </ul>
+            </div>
+            <div id="main-right">
+                <ul>
+                    <a href="#" ng-repeat="obj in arr">
+                        <li>
+                           <img ng-src="{{obj.img}}" height="38" width="42" alt="" />
+                           <p>{{obj.name}}</p> 
+                        </li>
+                    </a>
+                </ul>
+                <div><h3 ng-click="selecttagset()">高级搜索</h3></div>
+            </div>
+        </div>
+        <div class="select" ng-hide="selecttag">
+            <div class="opt">
+                <div class="opthead">
+                    <h4>筛选</h4>
+                    <div class="optheadback" ng-click="selecttagset2()"></div>
+                </div>
+                <div class="s-server">
+                    <h5 ng-click="sserver(0)">本服</h5>
+                    <h5 ng-click="sserver(1)">全服</h5>
+                </div>
+                <div class="grayline"></div>
+                <div class="s-sort">分类</div>
+                <ul class="propertys">
+                    <li>
+                        <h4 ng-click="sschoicestag(0)">出售状态</h4>
+                        <ul>
+                            <div class="cl"></div>
+                            <li ng-click="choice($event)" tag="true">以上架</li>
+                            <li ng-click="choice($event)" tag="true">公示期</li>
+                            <li ng-click="choice($event)" tag="true">竞拍中</li>
+                            <li ng-click="choice($event)" tag="true">抢付中</li>
+                            <div class="cl"></div>
+                        </ul>
+                    </li>
+                    <li>
+                        <h4>价格（元）</h4>
+                    </li>
+                    <li>
+                        <h4>门派</h4>
+                    </li>
+                    <li>
+                        <h4>等级</h4>
+                    </li>
+                    <li>
+                        <h4>历史门派</h4>
+                    </li>
+                </ul>
+                <div class="optfoot">
+                    <div class="left" ng-click="cleanchoice()">清除选项</div>
+                    <div class="right" ng-click="selecttagset2()">确定</div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
