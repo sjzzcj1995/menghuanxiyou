@@ -2,8 +2,10 @@ var app = angular.module('myapp',['ngRoute']);
         app.config(['$routeProvider',function ($routeProvider) {
             $routeProvider
             .when('/home',{templateUrl:'html/home.html',controller:'homeControl'})
+            .when('/hm2',{templateUrl:'html/role.html',controller:'hm2Control'})
+            .when('/hm4',{templateUrl:'html/prop.html',controller:'hm4Control'})
             .when('/search',{templateUrl:'html/search.html',controller:'searchControl'})
-            .when('/car',{templateUrl:'html/car.html',controller:'carControl'})
+            .when('/car',{templateUrl:'html/car.html'})
             .when('/mine',{templateUrl:'html/mine.html'})
             .otherwise({redirectTo:'html/home'})
         }])
