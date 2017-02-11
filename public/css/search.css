@@ -1,0 +1,413 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    border:0;
+}
+ol, ul ,li{list-style: none;} 
+body {
+    font-size: 25px;
+    background:rgb(245, 245, 245);
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(150, 150, 150);
+}
+/*搜索条*/
+.search-bar {
+    width: 100%;
+    padding: 0.5rem 0.5rem;
+    background: white;
+    overflow: hidden;
+    /*text-align: center;*/
+}
+/*搜索条左侧小于号*/
+.search-bar .back {
+    float: left;
+    font-size: 1rem;
+   /* padding-right: 0.5rem;*/
+    margin: 0.2rem 1.1rem 0 0.5rem;
+}
+/*搜索框*/
+.search-bar #search-msg {
+    float: left; 
+    box-sizing: border-box;
+    /*margin: 0 1rem 0 0.5rem;*/
+    padding-left: 0.5rem;
+    display: block;
+    border: 0.01rem solid #e6e6e6;
+    border-radius: 0.2rem;
+    width: 7.85rem;
+    height: 1.2rem;
+    font-size: 0.22rem;
+    background-color: #ededed;
+    background-size: 0.26rem;
+}
+/*取消*/
+.search-bar .cancel {
+    float: left;
+    font-size: 0.8rem;
+    padding-left: 0.6rem;
+    padding-top: 0.2rem;
+}
+#main {
+   width: 100%;
+   overflow: hidden;
+   font-size: 0.5rem;
+}
+/*主体左侧*/
+#main-left {
+    width: 25%;
+    float: left;
+    background: white;
+}
+#main-left>ul {
+    width: 100%;
+}
+#main-left>ul>li {
+    padding: 0.5rem;
+    text-align: center;
+}
+.suggestbg {
+    position: fixed;
+    width: 100%;
+    height: 20rem;
+    z-index: 99;
+    top: 1rem;
+    background: #fff;
+}
+.suggestbg .suggest {
+    height: 56rem;
+    width: 100%;
+    overflow: hidden;
+}
+.suggestbg .suggest li {
+    box-sizing: border-box;
+    width: 100%;
+    height: 8rem;
+    line-height: 8rem;
+    border-bottom: 1px solid #ededed;
+    margin: 0 0 0 0.3rem;
+    font-size: 0.28rem;
+    color: #4d4d4d;
+}
+
+/*点击搜索框后*/
+.search-view {
+    position: fixed;
+    width: 100%;
+    top: 2.5rem;
+    background: #f5f5f5;
+    z-index: 9;
+}
+
+/*热门搜索*/
+.search-view .hot-search {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 0 0 0.3rem;
+    height: 5rem;
+    background: #ffffff;
+}
+.search-view .hot-search h4 {
+    width: 100%;
+    height: 2rem;
+    line-height: 2rem;
+    font-size: 0.8rem;
+    color: #808080;
+    font-weight: 100;
+}
+
+.search-view .hot-search ul {
+    width: 100%;
+    margin: 0.1rem 0 0 0;
+    list-style: none;
+    /*height: 2.5rem;*/
+}
+/*大唐官府*/
+.search-view .hot-search ul li {
+    float: left;
+    list-style: none;
+    height: 1rem;
+    line-height: 1rem;
+    width: 3rem;
+    background: #ededed;
+    font-size: 0.5rem;
+    color: #4d4d4d;
+    text-align: center;
+    border-radius: 0.2rem;
+    margin: 0 0.4rem 0 0;
+}
+.search-view .search-history {
+    margin: 0.2rem 0 0 0;
+    width: 100%;
+    background: #ffffff;
+    height: 20rem;
+    /*line-height: 1rem;*/
+}
+
+.search-view .search-history ul li {
+    box-sizing: border-box;
+    width: 100%;
+    height: 2rem;
+    line-height: 2rem;
+    border-bottom: 1px solid #ededed;
+    margin: 0 0 0 0.3rem;
+    font-size: 0.5rem;
+    color: #4d4d4d;
+}
+
+/*.search-view .search-history ul li:first-of-type {
+    width: 7.5rem;
+    font-size: 0.20rem;
+    color: #808080;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0.3rem;
+}*/
+
+.search-view .search-history .clean-history h4 {
+    width: 30%;
+    height: 1rem;
+    line-height: 1rem;
+    text-align: center;
+    margin: 0.45rem auto;
+    font-size: 0.5rem;
+    font-weight: 100;
+    color: #e74242;
+    border: 0.01rem solid #e74242;
+    border-radius: 0.2rem;
+}
+/*高级搜索*/
+.select {
+    position: fixed;
+    top: 0rem;
+    left: 0;
+    z-index: 9;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    transition: all linear 0.3s;
+}
+.select.ng-hide {
+    background: rgba(0, 0, 0, 0);
+    /*left: 7.5rem;*/
+}
+.select .opt {
+    float: right;
+    position: relative;
+    background: #ffffff;
+    width: 80%;
+    height: 100%;
+}
+
+.select .opt .opthead {
+    position: relative;
+    /*height: 1rem;*/
+    width: 100%;
+}
+
+.select .opt .opthead h4 {
+    height: 2rem;
+    width: 100%;
+    line-height: 2rem;
+    font-size: 1rem;
+    color: #4d4d4d;
+    font-weight: 100;
+    text-align: center;
+}
+.select .opt .opthead .optheadback {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 1rem;
+    width: 1rem;
+    /*background: url(../img/search/fh.png) no-repeat 0.3rem center;*/
+    background-size: 0.21rem 0.37rem;
+}
+
+.select .opt .s-server {
+    height: 1rem;
+    width: 10rem;
+    margin: 0 auto;
+}
+
+.select .opt .s-server h5 {
+    box-sizing: border-box;
+    float: left;
+    width: 4.5rem;
+    height: 1rem;
+    line-height: 1rem;
+    font-size: 0.45rem;
+    font-weight: 100;
+    text-align: center;
+    border: 1px solid #e63535;
+}
+
+.select .opt .s-server h5:first-of-type {
+    background: #e63535;
+    color: #ffffff;
+    border-radius: 0.1rem 0 0 0.1rem;
+}
+
+.select .opt .s-server h5:last-of-type {
+    background: #fffff;
+    color: #e63535;
+    border-radius: 0 0.1rem 0.1rem 0;
+}
+.select .grayline {
+    height: 0.2rem;
+    width: 10rem;
+    background: #f5f5f5;
+    margin: 0.1rem 0 0 0;
+}
+
+.select .s-sort {
+    width: 14rem;
+    height: 1.2rem;
+    text-align: center;
+    margin: 0.26rem auto;
+    border: 0.01rem solid #ededed;
+    font-size: 0.5rem;
+    color: #4d4d4d;
+    line-height: 1.2rem;
+}
+/*主体右侧*/
+#main-right {
+    float: left;
+    width: 75%;
+}
+#main-right>ul {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#main-right>ul>a>li {
+    flex:1;
+    text-align: center;
+    width: 2.6rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    background: white;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+    font-size: 0.3rem;
+}
+#main-right>div {
+    width: 3rem;
+    height: 1rem;
+    border: 1px solid red;
+    border-radius: 0.2rem;
+    line-height: 1rem;
+    text-align: center;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+.select .propertys {
+    box-sizing: border-box;
+    width: 100%;
+    
+    overflow: scroll;
+    margin: 0 0 0 0.3rem;
+}
+
+.select .propertys>li {
+    border-bottom: 0.01rem solid #ededed;
+    width: 100%;
+}
+
+.select .propertys>li h4 {
+    position: relative;
+    font-size: 0.5rem;
+    width: 100%;
+    color: #4d4d4d;
+    font-weight: 100;
+    height: 1.5rem;
+    line-height: 1.5rem;
+   /* background: url(../img/search/bottom.png) no-repeat 5.9rem center;*/
+    background-size: 0.22rem 0.12rem;
+}
+
+.select .propertys>li h4 span {
+    position: absolute;
+    top: 0;
+    font-size: 0.5rem;
+    color: #e63535;
+    width: 40%;
+    text-align: right;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    right: 0.72rem;
+    display: block;
+}
+
+.select .propertys>li>ul {
+    display: none;
+    padding: 0.2rem 0 0 0;
+    width: 100%;
+}
+
+.select .propertys>li>ul>li,
+.select .propertys>li>ul>input {
+    display: block;
+    float: left;
+    width: 2.8rem;
+    height: 0.64rem;
+    line-height: 0.64rem;
+    text-align: center;
+    font-size: 0.24rem;
+    color: #4d4d4d;
+    background: #f5f5f5;
+    border: 0.01rem solid #eeeeee;
+    border-radius: 0.05rem;
+    margin: 0 0 0.16rem 0.2rem;
+}
+
+.select .propertys>li>ul>input {
+    background: #ffffff;
+}
+
+.select .propertys>li:nth-of-type(2)>ul,
+.select .propertys>li:nth-of-type(4)>ul {
+    position: relative;
+}
+
+.select .propertys>li:nth-of-type(2)>ul>.connectline,
+.select .propertys>li:nth-of-type(4)>ul>.connectline {
+    position: absolute;
+    width: 0.2rem;
+    height: 0.64rem;
+    line-height: 0.64rem;
+    top: 0.2rem;
+    left: 3.05rem;
+    text-align: center;
+}
+
+.select .opt .optfoot {
+    /*z-index: 9;*/
+    position: absolute;
+    bottom: 1rem;
+    left: 1.5rem;
+    width: 8rem;
+    height: 1.4rem;
+    line-height: 1.4rem;
+    text-align: center;
+    border-top: 0.01rem solid #ededed;
+}
+
+.select .opt .optfoot div {
+    width: 3.5rem;
+    height: 1.4rem;
+    float: left;
+    font-size: 0.5rem;
+    color: #e63535;
+    background: #ffffff;
+}
+
+.select .opt .optfoot div:last-of-type {
+    color: #ffffff;
+    background: #e63535;
+}
