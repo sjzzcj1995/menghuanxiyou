@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<title>角色</title>
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="css/role.css">
+	<link rel="stylesheet" type="text/css" href="css/prop.css">
 </head>
 <body>
 	<div id="wrap">
@@ -27,17 +27,17 @@
 		</div>
 		<div id="man-center">
 			<ul>
-				<li class="man-js" ng-repeat="man in manArr">
+				<li class="man-js" ng-repeat="pro in propArr">
 					<div>
-						<img src="imgs/js-man.jpg">
+						<img src="imgs/pro_1.jpg">
 					</div>
 					<div>
-						<p>{{man.equip_name}}&nbsp;<span>{{man.subtitle}}</span></p>
-						<p>{{man.desc_sumup}}</p>
+						<p>{{pro.equip_name}}&nbsp;<span>{{pro.subtitle}}</span></p>
+						<p>{{pro.desc_sumup}}</p>
 					</div>
 					<div>
-						<p>{{man.server_name}}</p>
-						<p>￥{{man.price_desc}}</p>
+						<p>{{pro.server_name}}</p>
+						<p>￥{{pro.price_desc}}</p>
 					</div>
 				</li>
 			</ul>
