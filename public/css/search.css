@@ -33,7 +33,7 @@ a {
 /*搜索框*/
 .search-bar #search-msg {
     float: left;
-    background: url(../imgs/seek.png) no-repeat left center;
+    
     box-sizing: border-box;
     /*margin: 0 1rem 0 0.5rem;*/
     padding-left: 3rem;
@@ -225,14 +225,14 @@ a {
 
 .select .opt .s-server {
     height: 1rem;
-    width: 14rem;
+    width: 10rem;
     margin: 0 auto;
 }
 
 .select .opt .s-server h5 {
     box-sizing: border-box;
     float: left;
-    width: 6.5rem;
+    width: 4.5rem;
     height: 1rem;
     line-height: 1rem;
     font-size: 0.45rem;
@@ -254,7 +254,7 @@ a {
 }
 .select .grayline {
     height: 0.2rem;
-    width: 14rem;
+    width: 10rem;
     background: #f5f5f5;
     margin: 0.1rem 0 0 0;
 }
@@ -386,8 +386,8 @@ a {
     /*z-index: 9;*/
     position: absolute;
     bottom: 1rem;
-    left: 3rem;
-    width: 10rem;
+    left: 1.5rem;
+    width: 8rem;
     height: 1.4rem;
     line-height: 1.4rem;
     text-align: center;
@@ -395,7 +395,7 @@ a {
 }
 
 .select .opt .optfoot div {
-    width: 4.5rem;
+    width: 3.5rem;
     height: 1.4rem;
     float: left;
     font-size: 0.5rem;

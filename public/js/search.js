@@ -91,7 +91,7 @@ app.controller('searchControl',function ($scope,$http) {
         };
 
         $http({
-            url:'http://127.0.0.1:2333/seek'+ $scope.num,
+            url:'http://127.0.0.1:6587/seek'+ $scope.num,
             method:'get'
         }).success(function (data) {
             // console.log(data)
