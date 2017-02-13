@@ -10,7 +10,12 @@ var app = angular.module('myapp',['ngRoute']);
             .when('/hm7',{templateUrl:'html/date.html',controller:'hm7Control'})
              .when('/hm8',{templateUrl:'html/mysell.html',controller:'hm8Control'})
             .when('/search',{templateUrl:'html/search.html',controller:'searchControl'})
+
+            .when('/auction',{templateUrl:'html/auction.html',controller:'auctionControl'})
+            .when('/car',{templateUrl:'html/car.html',controller:'carControl'})
+
             .when('/car',{templateUrl:'html/car.html'})
+
             .when('/mine',{templateUrl:'html/mine.html'})
             .otherwise({redirectTo:'/home'})
         }])
