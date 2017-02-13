@@ -93,7 +93,7 @@ nav>a{
 #man-center{
 	width: 100%;
 	margin-top: 3.6rem;
-	font-size: 0.5rem;
+	font-size: 0.4rem;
 }
 #man-center>ul{
 	width: 100%;
@@ -102,10 +102,14 @@ nav>a{
 	display: flex;
 	border-bottom: 1px solid #eee;
 	padding:0.3rem 0;
-	margin:0 0.4rem;
+	width: 90%;
+	margin:0 auto;
 }
 .man-js>div:nth-child(1){
 	flex: 1;
+}
+.man-js>div:nth-child(1)>img{
+	width: 80%;
 }
 .man-js>div:nth-child(2){
 	margin-top: 0.2rem;
@@ -118,6 +122,7 @@ nav>a{
 	margin-top: 0.2rem;
 	white-space: nowrap;
 	overflow: hidden;
+	font-size: 0.5rem;
 	text-overflow: ellipsis;
 }
 .man-js>div:nth-child(3){

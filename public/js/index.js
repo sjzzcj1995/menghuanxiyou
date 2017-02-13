@@ -9,7 +9,7 @@ var app = angular.module('myapp',['ngRoute']);
             .when('/search',{templateUrl:'html/search.html',controller:'searchControl'})
             .when('/car',{templateUrl:'html/car.html'})
             .when('/mine',{templateUrl:'html/mine.html'})
-            .otherwise({redirectTo:'html/home'})
+            .otherwise({redirectTo:'/home'})
         }])
         app.controller('tab',function ($scope) {
             // console.log(shopArr.length);
