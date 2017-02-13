@@ -3,6 +3,7 @@ var app = angular.module('myapp',['ngRoute']);
             $routeProvider
             .when('/home',{templateUrl:'html/home.html',controller:'homeControl'})
             .when('/search',{templateUrl:'html/search.html',controller:'searchControl'})
+            .when('/auction',{templateUrl:'html/auction.html',controller:'auctionControl'})
             .when('/car',{templateUrl:'html/car.html',controller:'carControl'})
             .when('/mine',{templateUrl:'html/mine.html'})
             .otherwise({redirectTo:'html/home'})

@@ -308,7 +308,6 @@ a {
 .select .propertys {
     box-sizing: border-box;
     width: 100%;
-    
     overflow: scroll;
     margin: 0 0 0 0.3rem;
 }
@@ -316,6 +315,7 @@ a {
 .select .propertys>li {
     border-bottom: 0.01rem solid #ededed;
     width: 100%;
+    float: left;
 }
 
 .select .propertys>li h4 {
@@ -325,12 +325,10 @@ a {
     color: #4d4d4d;
     font-weight: 100;
     height: 1.5rem;
-    line-height: 1.5rem;
-   /* background: url(../img/search/bottom.png) no-repeat 5.9rem center;*/
-    background-size: 0.22rem 0.12rem;
+    line-height: 1.5rem;   
 }
 
-.select .propertys>li h4 span {
+/*.select .propertys>li h4 span {
     position: absolute;
     top: 0;
     font-size: 0.5rem;
@@ -342,16 +340,29 @@ a {
     white-space: nowrap;
     right: 0.72rem;
     display: block;
-}
+}*/
 
 .select .propertys>li>ul {
-    display: none;
+   /* display: none;*/
     padding: 0.2rem 0 0 0;
     width: 100%;
 }
 
-.select .propertys>li>ul>li,
-.select .propertys>li>ul>input {
+.select .propertys>li>ul>li {
+    display: block;
+    float: left;
+    width: 4rem;
+    height: 1rem;
+    line-height: 1rem;
+    text-align: center;
+    font-size: 0.5rem;
+    color: #4d4d4d;
+    background: #f5f5f5;
+    border: 0.01rem solid #eeeeee;
+    border-radius: 0.1rem;
+    margin: 0.3rem 0.2rem;
+}
+/*.select .propertys>li>ul>input {
     display: block;
     float: left;
     width: 2.8rem;
@@ -365,11 +376,11 @@ a {
     border-radius: 0.05rem;
     margin: 0 0 0.16rem 0.2rem;
 }
-
-.select .propertys>li>ul>input {
+*/
+/*.select .propertys>li>ul>input {
     background: #ffffff;
 }
-
+*/
 .select .propertys>li:nth-of-type(2)>ul,
 .select .propertys>li:nth-of-type(4)>ul {
     position: relative;

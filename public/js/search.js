@@ -2,13 +2,14 @@ app.controller('searchControl',function ($scope,$http) {
     $scope.num = 1;
     function dj () {
         $scope.arr = [];
-
+        //搜索界面的标志量，true隐藏
         $scope.tag = true;
-        //当前所在的选项
-        $scope.choicesnow = -1;
+       
+        //筛选界面的标志量，true隐藏
         $scope.selecttag = true;
-        $scope.suggestdiv = false;
-
+        //搜索建议div块的隐藏和显示
+        // $scope.suggestdiv = false;
+       
         //输入框输入检测
         $scope.search = function(t) {
             if(t) {
@@ -26,10 +27,7 @@ app.controller('searchControl',function ($scope,$http) {
         //点击进入筛选界面
         $scope.selecttagset = function() {
             $scope.selecttag = false;
-<<<<<<< HEAD
-=======
-            //原生app突然更新了
->>>>>>> master
+
             $('.search-bar .back').css('display', 'none');
         };
         //筛选的返回
@@ -48,13 +46,16 @@ app.controller('searchControl',function ($scope,$http) {
                 'color': '#ffffff'
             })
         };
-<<<<<<< HEAD
         
-=======
-
->>>>>>> master
-       
-        
+        //出售状态隐藏显示
+        $scope.flag = false;
+        $scope.sschoicestag = function () {
+            if (!$scope.flag) {
+                $scope.flag = true;
+            } else {
+                $scope.flag = false;
+            }
+        }
 
         
         $http({
