@@ -9,7 +9,7 @@
 <body>
 	<div id="wrap">
 		<nav>
-			<a href="">&lt;</a>
+			<a href="#/home">&lt;</a>
 			<div id="root">
 				<img src="../img/ico_search.png">
 				<input type="text" placeholder="输入关键字搜索内容">
@@ -29,7 +29,7 @@
 			<ul>
 				<li class="man-js" ng-repeat="man in manArr">
 					<div>
-						<img src="imgs/js-man.jpg">
+						<img src="{{man.icon}}">
 					</div>
 					<div>
 						<p>{{man.equip_name}}&nbsp;<span>{{man.subtitle}}</span></p>

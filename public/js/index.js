@@ -6,6 +6,7 @@ var app = angular.module('myapp',['ngRoute']);
             .when('/hm3',{templateUrl:'html/baby.html',controller:'hm3Control'})
             .when('/hm2',{templateUrl:'html/role.html',controller:'hm2Control'})
             .when('/hm4',{templateUrl:'html/prop.html',controller:'hm4Control'})
+            .when('/hm6',{templateUrl:'html/collect.html',controller:'hm6Control'})
             .when('/search',{templateUrl:'html/search.html',controller:'searchControl'})
             .when('/car',{templateUrl:'html/car.html'})
             .when('/mine',{templateUrl:'html/mine.html'})
