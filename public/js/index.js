@@ -2,13 +2,10 @@ var app = angular.module('myapp',['ngRoute']);
         app.config(['$routeProvider',function ($routeProvider) {
             $routeProvider
             .when('/home',{templateUrl:'html/home.html',controller:'homeControl'})
-<<<<<<< HEAD
             .when('/hm1',{templateUrl:'html/money.html',controller:'hm1Control'})
             .when('/hm3',{templateUrl:'html/baby.html',controller:'hm3Control'})
-=======
             .when('/hm2',{templateUrl:'html/role.html',controller:'hm2Control'})
             .when('/hm4',{templateUrl:'html/prop.html',controller:'hm4Control'})
->>>>>>> 4e6accc195842d9514a2e63c65c73ee0921eddae
             .when('/search',{templateUrl:'html/search.html',controller:'searchControl'})
             .when('/car',{templateUrl:'html/car.html'})
             .when('/mine',{templateUrl:'html/mine.html'})
