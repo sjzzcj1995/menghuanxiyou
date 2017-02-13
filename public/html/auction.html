@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="../css/auction.css" />
+    </head>
+    <body ng-controller="auctionControl">
+        <header>
+            <a href="#/home">&lt;</a>
+            <span>拍卖行</span>
+        </header>
+        <div class="goods">
+            <a href="" ng-click="aucing()" ng-style="chooseLeft">竞拍中的商品</a>
+            <a href="" ng-click="auced()" ng-style="chooseRight">抢付商品</a>
+        </div>
+        <div class="order" >
+            <p ng-click="orderByNormal()" ng-style="aucChangeIcon0">综合排序</p> 
+            <p ng-click="orderByTime()" ng-style="aucChangeIcon1">剩余时间</p> 
+            <p ng-click="orderByPrice()" ng-style="aucChangeIcon2">竞拍价格</p> 
+            <p ng-click="orderByCount()" ng-style="aucChangeIcon3">出价次数</p> 
+        </div>
+        <div class="content">
+            <div class="aucContent" ng-repeat="obj in arr">
+                <div><img ng-src="{{obj.icon}}"/></div>
+                <div>
+                    <p><span>{{obj.equip_name}}</span> {{obj.subtitle}}</p>
+                    <p>{{obj.desc_sump}}</p>
+                    <p><span>{{obj.status_desc}}</span> 剩余{{obj.sell_expire_time_desc}}</p>
+                </div>
+                <div>
+                    <p>{{obj.server_name}}</p>
+                    <p>￥{{obj.price}}</p>
+                    <p>{{obj.auction_bid_count}}人次出价</p>
+                </div>
+            </div>
+            <div class="aucContent" ng-repeat="obj in arr" ng-show="aucTab">
+                <div><img ng-src="{{obj.icon}}"/></div>
+                <div>
+                    <p><span>{{obj.equip_name}}</span> {{obj.subtitle}}</p>
+                    <p>{{obj.desc_sump}}</p>
+                    <p><span>{{obj.status_desc}}</span> 剩余{{obj.sell_expire_time_desc}}</p>
+                </div>
+                <div>
+                    <p>{{obj.server_name}}</p>
+                    <p>￥{{obj.price}}</p>
+                    <p>{{obj.auction_bid_count}}人次出价</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
