@@ -54,8 +54,13 @@ nav>a>p{
 	height: 1.2rem;
 	float: left;
 	border:none;
-	color:#fff;
 	background-color: #b32929;	
+}
+#root>input:-webkit-input-placeholder{
+	color:#fff;
+}
+#root>input::-webkit-input-placeholder{
+	color:#fff;
 }
 nav>a{
 	flex: 1;

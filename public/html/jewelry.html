@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../css/jewelry.css">
+</head>
+<body>
+	<div id="wrap">
+		<nav>
+			<a href="#/home">&lt;</a>
+			<div id="root">
+				<img src="../img/ico_search.png">
+				<input type="text" placeholder="输入关键字搜索内容">
+			</div>
+		</nav>
+		<div id="header">
+			<a href="" ng-click="one()">最新上架</a>
+			<a href="" ng-click="two()">收藏数量</a>
+			<a href="" ng-click="three()">价格</a>
+			<a href="" ng-click="fore()">筛选</a>
+		</div>
+		<div id="main">
+			<ul ng-repeat="obj in jewelryArr">
+				<li>
+					<a href="">
+						<img ng-src="{{obj.icon}}">
+					</a>
+				</li>
+				<li>
+					<p>
+						<span>{{obj.equip_name}}</span>
+						<span>{{obj.subtitle}}</span>
+					</p>
+					<p>{{obj.desc_sumup}}</p>
+				</li>
+				<li>
+					<p>{{obj.server_name}}</p>
+					<p>￥{{obj.serverid}}</p>
+				</li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>

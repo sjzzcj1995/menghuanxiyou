@@ -23,11 +23,19 @@ html{
 	background: #e63535;
 	font-size: 0.8rem;
 	line-height: 1.8rem;
+	overflow: hidden;
+	text-align: center;
 	border-bottom: 0.3rem solid #eee;
 }
-#coll>p{
-	text-align: center;
+#coll>a{
+	float: left;
 	color:#fff;
+	width: 15%;
+}
+#coll>p{
+	float: left;
+	color:#fff;
+	width: 70%;
 }
 #man-center{
 	width: 100%;
