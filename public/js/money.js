@@ -1,6 +1,6 @@
 
 app.controller('hm1Control',function($scope,$http){
-	console.log("1");
+	// console.log("1");
 	function dj(){
 	$scope.moneyArr = [];	
 	$http({
@@ -8,7 +8,7 @@ app.controller('hm1Control',function($scope,$http){
 			method:'get',
 		}).success(function(data){
 			$scope.moneyArr = data.equip_list;
-			console.log($scope.moneyArr)
+			// console.log($scope.moneyArr)
 			
 		})
 	}
