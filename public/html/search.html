@@ -11,18 +11,18 @@
             <input type="text" id="search-msg" placeholder="超级神羊" ng-focus="search(true)" ng-module="searchmsg"/>
             <a href="#/search" class="cancel" ng-show="!tag" ng-click="search(false)">取消</a>
         </div>
-        <div class="suggest ng-hide" ng-show="suggestdiv">
+        <!-- <div class="suggest ng-hide" ng-show="suggestdiv">
             <ul class="suggest">
                 <li  ng-click="suggestpick()"></li>
             </ul>
-        </div>
+        </div> -->
         <div class="search-view ng-hide" ng-show="!tag">
             <div class="hot-search">
                 <h4>热门搜索</h4>
                 <ul>
-                    <li ng-click="hotpick(0)">大唐官府</li>
-                    <li ng-click="hotpick(1)">无级别</li>
-                    <li ng-click="hotpick(2)">简易</li>
+                    <li>大唐官府</li>
+                    <li>无级别</li>
+                    <li>简易</li>
                 </ul>
             </div>
             <div class="search-history">
@@ -30,7 +30,7 @@
                     <li>历史搜索</li>
                 </ul>
                 <div class="clean-history">
-                    <h4 ng-click="cleanhistory()">清空历史搜索</h4>
+                    <h4 >清空历史搜索</h4>
                 </div>
             </div>
         </div>
@@ -74,31 +74,35 @@
                 <div class="s-sort">分类</div>
                 <ul class="propertys">
                     <li>
-                        <h4 ng-click="sschoicestag(0)">出售状态</h4>
-                        <ul>
-                            <div class="cl"></div>
-                            <li ng-click="choice($event)" tag="true">以上架</li>
-                            <li ng-click="choice($event)" tag="true">公示期</li>
-                            <li ng-click="choice($event)" tag="true">竞拍中</li>
-                            <li ng-click="choice($event)" tag="true">抢付中</li>
-                            <div class="cl"></div>
+                        <h4 ng-click="sschoicestag()">出售状态</h4>
+                        <ul ng-show="flag">
+                            <li ng-click="appear()">以上架</li>
+                            <li >公示期</li>
+                            <li >竞拍中</li>
+                            <li >抢付中</li>
                         </ul>
                     </li>
                     <li>
-                        <h4>价格（元）</h4>
+                        <h4 ng-click="sschoicestag()">价格（元）</h4>
+                        <!-- <ul>
+                            <li >以上架</li>
+                            <li >公示期</li>
+                            <li >竞拍中</li>
+                            <li >抢付中</li>
+                        </ul> -->
                     </li>
                     <li>
-                        <h4>门派</h4>
+                        <h4 ng-click="sschoicestag()">门派</h4>
                     </li>
                     <li>
-                        <h4>等级</h4>
+                        <h4 ng-click="sschoicestag()">等级</h4>
                     </li>
                     <li>
-                        <h4>历史门派</h4>
+                        <h4 ng-click="sschoicestag()">历史门派</h4>
                     </li>
                 </ul>
                 <div class="optfoot">
-                    <div class="left" ng-click="cleanchoice()">清除选项</div>
+                    <div class="left">清除选项</div>
                     <div class="right" ng-click="selecttagset2()">确定</div>
                 </div>
             </div>
