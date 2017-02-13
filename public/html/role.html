@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>角色</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/role.css">
+</head>
+<body>
+	<div id="wrap">
+		<nav>
+			<a href="">&lt;</a>
+			<div id="root">
+				<img src="../img/ico_search.png">
+				<input type="text" placeholder="输入关键字搜索内容">
+			</div>
+		</nav>
+		<div id="man-list">
+			<p>
+				最新上架
+			</p>
+			<p>
+				<span>收藏数量</span>
+				<span>价格</span>
+			</p>
+			<p>筛选</p>
+		</div>
+		<div id="man-center">
+			<ul>
+				<li class="man-js" ng-repeat="man in manArr">
+					<div>
+						<img src="imgs/js-man.jpg">
+					</div>
+					<div>
+						<p>{{man.equip_name}}&nbsp;<span>{{man.subtitle}}</span></p>
+						<p>{{man.desc_sumup}}</p>
+					</div>
+					<div>
+						<p>{{man.server_name}}</p>
+						<p>￥{{man.price_desc}}</p>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<br><br>
+
+		
+
+
+
+
+
+
+
+	</div>
+	
+</body>
+</html>

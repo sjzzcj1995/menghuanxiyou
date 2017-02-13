@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../css/money.css">
+</head>
+<body>
+	<div id="wrap">
+		<nav>
+			<a href="">&lt;</a>
+			<div id="root">
+				<img src="../img/ico_search.png">
+				<input type="text" placeholder="输入关键字搜索内容">
+			</div>
+		</nav>
+		<div id="btns">
+				<a href="" ng-click=low()>单价最低</a>
+				<a href="" ng-click=jg()>价格</a>
+		</div>
+		<div id="main">
+			<ul ng-repeat="obj in moneyArr">
+				<li>
+					<a href="">
+						<img src="../img/images/money.gif">
+					</a>
+				</li>
+				<li>
+					<p>
+						<span>{{obj.equip_name}}</span>
+						<span>{{obj.subtitle}}</span>
+					</p>
+					<p>{{obj.desc_sumup}}</p>
+				</li>
+				<li>
+					<p>{{obj.server_name}}</p>
+					<p>￥{{obj.price_desc}}</p>
+				</li>
+			</ul>
+		</div>
+	</div>
+	
+</body>
+</html>

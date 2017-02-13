@@ -2,11 +2,22 @@ var app = angular.module('myapp',['ngRoute']);
         app.config(['$routeProvider',function ($routeProvider) {
             $routeProvider
             .when('/home',{templateUrl:'html/home.html',controller:'homeControl'})
+            .when('/hm1',{templateUrl:'html/money.html',controller:'hm1Control'})
+            .when('/hm3',{templateUrl:'html/baby.html',controller:'hm3Control'})
+            .when('/hm2',{templateUrl:'html/role.html',controller:'hm2Control'})
+            .when('/hm4',{templateUrl:'html/prop.html',controller:'hm4Control'})
+            .when('/hm5',{templateUrl:'html/jewelry.html',controller:'hm5Control'})
+            .when('/hm7',{templateUrl:'html/date.html',controller:'hm7Control'})
+             .when('/hm8',{templateUrl:'html/mysell.html',controller:'hm8Control'})
             .when('/search',{templateUrl:'html/search.html',controller:'searchControl'})
+
             .when('/auction',{templateUrl:'html/auction.html',controller:'auctionControl'})
             .when('/car',{templateUrl:'html/car.html',controller:'carControl'})
+
+            .when('/car',{templateUrl:'html/car.html'})
+
             .when('/mine',{templateUrl:'html/mine.html'})
-            .otherwise({redirectTo:'html/home'})
+            .otherwise({redirectTo:'/home'})
         }])
         app.controller('tab',function ($scope) {
             // console.log(shopArr.length);
