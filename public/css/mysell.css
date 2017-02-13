@@ -39,6 +39,20 @@ nav>p{
 	width: 70%;
 	float: left;
 	color:#fff;
+	overflow: hidden;
+	font-size: 0.8rem;
+}
+nav>p{
+	float: left;
+	color:#fff;
+	line-height: 1.8rem;
+	text-align: center;
+}
+nav>p:first-child{
+	width: 15%;
+}
+nav>p:last-child{
+	width: 70%;
 }
 #main{
 	width: 100%;
