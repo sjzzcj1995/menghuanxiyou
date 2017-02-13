@@ -2,14 +2,14 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>角色</title>
+	<title>道具</title>
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="css/prop.css">
 </head>
 <body>
 	<div id="wrap">
 		<nav>
-			<a href="">&lt;</a>
+			<a href="#/home">&lt;</a>
 			<div id="root">
 				<img src="../img/ico_search.png">
 				<input type="text" placeholder="输入关键字搜索内容">
@@ -29,7 +29,7 @@
 			<ul>
 				<li class="man-js" ng-repeat="pro in propArr">
 					<div>
-						<img src="imgs/pro_1.jpg">
+						<img src="{{pro.icon}}">
 					</div>
 					<div>
 						<p>{{pro.equip_name}}&nbsp;<span>{{pro.subtitle}}</span></p>

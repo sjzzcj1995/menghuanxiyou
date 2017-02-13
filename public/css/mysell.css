@@ -24,6 +24,21 @@ nav{
 	top:0;
 	left: 0;
 	z-index: 1000;
+	line-height: 1.8rem;
+	overflow: hidden;
+	font-size: 0.8rem;
+	text-align: center;
+}
+nav>a{
+	width: 15%;
+	float: left;
+	color:#fff;
+	font-size: 1.2rem;
+}
+nav>p{
+	width: 70%;
+	float: left;
+	color:#fff;
 	overflow: hidden;
 	font-size: 0.8rem;
 }
