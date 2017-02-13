@@ -68,8 +68,8 @@ nav>a{
 }
 .swiper-container{
 	width: 100%;
-	position: absolute;
-	top: 1.8rem;
+	
+	margin-top: 1.8rem;
 }
 .swiper-container img{
 	width: 100%;
@@ -78,7 +78,7 @@ nav>a{
 #menu{
 	width: 100%;
 	display: flex;
-	margin-top:6rem;
+	/*margin-top:6rem;*/
 	background: #fff;
 }
 #menu>a{
