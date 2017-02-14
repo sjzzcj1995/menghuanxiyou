@@ -1,4 +1,4 @@
-app.controller('hm5Control',function($scope,$http){
+app.controller('hm5Control',['$scope','$http',function($scope,$http){
 	function dj(){
 	$scope.jewelryArr = [];	
 	$http({
@@ -23,4 +23,4 @@ app.controller('hm5Control',function($scope,$http){
 	$scope.fore = function(){
 		dj();
 	}
-})
+}])

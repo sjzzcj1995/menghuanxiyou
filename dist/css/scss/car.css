@@ -1,0 +1,16 @@
+.car * { margin: 0; padding: 0; }
+.car a { text-decoration: none; }
+.car ul, .car li { list-style: none; }
+.car html { font-size: 25px; }
+.car body { background: #fff; }
+.car #car-top { width: 100%; height: 1.8rem; background: #fa000a; }
+.car #car-top > p { line-height: 1.8rem; font-size: 0.8rem; color: #fff; text-align: center; }
+.car .c_list { display: flex; width: 100%; height: 2.8rem; padding-top: 0.3rem; }
+.car .c_list > div { display: inline-block; font-size: 0.5rem; font-weight: 700; }
+.car .c_list > div:nth-child(1) { padding-left: 0.3rem; flex: 1; }
+.car .c_list > div:nth-child(2) { margin-top: 0.2rem; flex: 2; }
+.car .c_list > div:nth-child(3) { margin-top: 0.2rem; text-align: center; flex: 1; }
+.car #car-fot { position: fixed; bottom: 2rem; left: 0; width: 100%; }
+.car #car-fot > ul { width: 100%; display: flex; overflow: hidden; height: 1.8rem; line-height: 1.8rem; }
+.car #car-fot > ul > li { float: left; flex: 1; font-size: 0.7rem; text-align: center; }
+.car #car-fot > ul > li:nth-child(3) { background: red; color: #fff; }

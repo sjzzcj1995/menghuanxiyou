@@ -1,0 +1,1 @@
+var controller=app.controller("homeControl",["$scope","$http",function(o,e){new Swiper(".swiper-container",{pagination:".swiper-pagination",autoplay:1e3,loop:!0,autoplayDisableOnInteraction:!1,observer:!0,observeParents:!0,paginationClickable:!0})}]);

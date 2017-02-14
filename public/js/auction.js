@@ -1,4 +1,4 @@
-app.controller('auctionControl',function ($scope,$http) {
+app.controller('auctionControl',['$scope','$http',function ($scope,$http) {
     $scope.arr = [];
     $scope.arr2 = [];
     $scope.num1 = 0;
@@ -126,6 +126,6 @@ app.controller('auctionControl',function ($scope,$http) {
                       // console.log(data)
                       $scope.arr = data.equip_list;
                 })
-})
+}])
     
 

@@ -1,4 +1,4 @@
-app.controller('hm2Control',function($scope,$http){
+app.controller('hm2Control',['$scope','$http',function($scope,$http){
 	function men(){
 	$scope.manArr = [];	
 	$http({
@@ -12,4 +12,4 @@ app.controller('hm2Control',function($scope,$http){
 		})
 	}
 	men();
-})
+}])

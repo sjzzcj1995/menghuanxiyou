@@ -1,0 +1,50 @@
+.sear * { margin: 0; padding: 0; }
+.sear img { border: 0; }
+.sear ol, .sear ul, .sear li { list-style: none; }
+.sear body { font-size: 25px; background: whitesmoke; }
+.sear a { text-decoration: none; cursor: pointer; color: #969696; }
+.sear .search-bar { width: 100%; padding: 0.5rem 0.5rem; background: white; overflow: hidden; }
+.sear .search-bar .back { float: left; font-size: 1rem; margin: 0.2rem 1.1rem 0 0.5rem; }
+.sear .search-bar #search-msg { float: left; box-sizing: border-box; padding-left: 0.5rem; display: block; border: 0.01rem solid #e6e6e6; border-radius: 0.2rem; width: 7.85rem; height: 1.2rem; font-size: 0.22rem; background-color: #ededed; background-size: 0.26rem; }
+.sear .search-bar .cancel { float: left; font-size: 0.8rem; padding-left: 0.6rem; padding-top: 0.2rem; }
+.sear #main { width: 100%; overflow: hidden; font-size: 0.5rem; }
+.sear #main-left { width: 25%; float: left; background: white; }
+.sear #main-left > ul { width: 100%; }
+.sear #main-left > ul > li { padding: 0.5rem; text-align: center; }
+.sear .suggestbg { position: fixed; width: 100%; height: 20rem; z-index: 99; top: 1rem; background: #fff; }
+.sear .suggestbg .suggest { height: 56rem; width: 100%; overflow: hidden; }
+.sear .suggestbg .suggest li { box-sizing: border-box; width: 100%; height: 8rem; line-height: 8rem; border-bottom: 1px solid #ededed; margin: 0 0 0 0.3rem; font-size: 0.28rem; color: #4d4d4d; }
+.sear .search-view { position: fixed; width: 100%; top: 2.5rem; background: #f5f5f5; z-index: 9; }
+.sear .search-view .hot-search { box-sizing: border-box; width: 100%; padding: 0 0 0 0.3rem; height: 5rem; background: #ffffff; }
+.sear .search-view .hot-search h4 { width: 100%; height: 2rem; line-height: 2rem; font-size: 0.8rem; color: #808080; font-weight: 100; }
+.sear .search-view .hot-search ul { width: 100%; margin: 0.1rem 0 0 0; list-style: none; }
+.sear .search-view .hot-search ul li { float: left; list-style: none; height: 1rem; line-height: 1rem; width: 3rem; background: #ededed; font-size: 0.5rem; color: #4d4d4d; text-align: center; border-radius: 0.2rem; margin: 0 0.4rem 0 0; }
+.sear .search-view .search-history { margin: 0.2rem 0 0 0; width: 100%; background: #ffffff; height: 20rem; }
+.sear .search-view .search-history ul li { box-sizing: border-box; width: 100%; height: 2rem; line-height: 2rem; border-bottom: 1px solid #ededed; margin: 0 0 0 0.3rem; font-size: 0.5rem; color: #4d4d4d; }
+.sear .search-view .search-history .clean-history h4 { width: 30%; height: 1rem; line-height: 1rem; text-align: center; margin: 0.45rem auto; font-size: 0.5rem; font-weight: 100; color: #e74242; border: 0.01rem solid #e74242; border-radius: 0.2rem; }
+.sear .select { position: fixed; top: 0rem; left: 0; z-index: 9; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.4); transition: all linear 0.3s; }
+.sear .select.ng-hide { background: transparent; }
+.sear .select .opt { float: right; position: relative; background: #ffffff; width: 80%; height: 100%; }
+.sear .select .opt .opthead { position: relative; width: 100%; }
+.sear .select .opt .opthead h4 { height: 2rem; width: 100%; line-height: 2rem; font-size: 1rem; color: #4d4d4d; font-weight: 100; text-align: center; }
+.sear .select .opt .opthead .optheadback { position: absolute; top: 0; left: 0; height: 1rem; width: 1rem; background-size: 0.21rem 0.37rem; }
+.sear .select .opt .s-server { height: 1rem; width: 10rem; margin: 0 auto; }
+.sear .select .opt .s-server h5 { box-sizing: border-box; float: left; width: 4.5rem; height: 1rem; line-height: 1rem; font-size: 0.45rem; font-weight: 100; text-align: center; border: 1px solid #e63535; }
+.sear .select .opt .s-server h5:first-of-type { background: #e63535; color: #ffffff; border-radius: 0.1rem 0 0 0.1rem; }
+.sear .select .opt .s-server h5:last-of-type { background: #fffff; color: #e63535; border-radius: 0 0.1rem 0.1rem 0; }
+.sear .select .grayline { height: 0.2rem; width: 10rem; background: #f5f5f5; margin: 0.1rem 0 0 0; }
+.sear .select .s-sort { width: 14rem; height: 1.2rem; text-align: center; margin: 0.26rem auto; border: 0.01rem solid #ededed; font-size: 0.5rem; color: #4d4d4d; line-height: 1.2rem; }
+.sear #main-right { float: left; width: 75%; }
+.sear #main-right > ul { width: 100%; display: flex; flex-wrap: wrap; }
+.sear #main-right > ul > a > li { flex: 1; text-align: center; width: 2.6rem; padding-top: 0.3rem; padding-bottom: 0.3rem; background: white; margin-left: 0.5rem; margin-top: 0.5rem; font-size: 0.3rem; }
+.sear #main-right > div { width: 3rem; height: 1rem; border: 1px solid red; border-radius: 0.2rem; line-height: 1rem; text-align: center; margin-left: 2rem; margin-top: 1rem; }
+.sear .select .propertys { box-sizing: border-box; width: 100%; overflow: scroll; margin: 0 0 0 0.3rem; }
+.sear .select .propertys > li { border-bottom: 0.01rem solid #ededed; width: 100%; float: left; }
+.sear .select .propertys > li h4 { position: relative; font-size: 0.5rem; width: 100%; color: #4d4d4d; font-weight: 100; height: 1.5rem; line-height: 1.5rem; }
+.sear .select .propertys > li > ul { padding: 0.2rem 0 0 0; width: 100%; }
+.sear .select .propertys > li > ul > li { display: block; float: left; width: 4rem; height: 1rem; line-height: 1rem; text-align: center; font-size: 0.5rem; color: #4d4d4d; background: #f5f5f5; border: 0.01rem solid #eeeeee; border-radius: 0.1rem; margin: 0.3rem 0.2rem; }
+.sear .select .propertys > li:nth-of-type(2) > ul, .sear .select .propertys > li:nth-of-type(4) > ul { position: relative; }
+.sear .select .propertys > li:nth-of-type(2) > ul > .connectline, .sear .select .propertys > li:nth-of-type(4) > ul > .connectline { position: absolute; width: 0.2rem; height: 0.64rem; line-height: 0.64rem; top: 0.2rem; left: 3.05rem; text-align: center; }
+.sear .select .opt .optfoot { position: absolute; bottom: 1rem; left: 1.5rem; width: 8rem; height: 1.4rem; line-height: 1.4rem; text-align: center; border-top: 0.01rem solid #ededed; }
+.sear .select .opt .optfoot div { width: 3.5rem; height: 1.4rem; float: left; font-size: 0.5rem; color: #e63535; background: #ffffff; }
+.sear .select .opt .optfoot div:last-of-type { color: #ffffff; background: #e63535; }

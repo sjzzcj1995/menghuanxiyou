@@ -1,5 +1,5 @@
 
-app.controller('hm1Control',function($scope,$http){
+app.controller('hm1Control',['$scope','$http',function($scope,$http){
 	// console.log("1");
 	function dj(){
 	$scope.moneyArr = [];	
@@ -19,4 +19,4 @@ app.controller('hm1Control',function($scope,$http){
 	$scope.jg = function(){
 		dj();
 	}
-})
+}])

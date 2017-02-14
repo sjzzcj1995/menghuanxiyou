@@ -20,7 +20,7 @@ var app = angular.module('myapp',['ngRoute']);
             .when('/mine',{templateUrl:'html/mine.html'})
             .otherwise({redirectTo:'/home'})
         }])
-        app.controller('tab',function ($scope) {
+        app.controller('tab',['$scope',function ($scope) {
             // console.log(shopArr.length);
             // $scope.count = shopArr;
             $scope.arr = [
@@ -57,4 +57,4 @@ var app = angular.module('myapp',['ngRoute']);
                     }
                     $scope.arr[index].cla = $scope.arr[index].cla + '-1'
             }
-        })
+        }])

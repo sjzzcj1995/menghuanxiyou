@@ -1,4 +1,4 @@
-app.controller('hm4Control',function($scope,$http){
+app.controller('hm4Control',['$scope','$http',function($scope,$http){
 	function prop(){
 	$scope.propArr = [];	
 	$http({
@@ -10,4 +10,4 @@ app.controller('hm4Control',function($scope,$http){
 		})
 	}
 	prop();
-})
+}])
