@@ -1,0 +1,1 @@
+app.controller("hm1Control",["$scope","$http",function(t,n){function o(){t.moneyArr=[],n({url:"http://127.0.0.1:6587/list1",method:"get"}).success(function(n){t.moneyArr=n.equip_list})}o(),t.low=function(){o()},t.jg=function(){o()}}]);

@@ -1,4 +1,4 @@
-app.controller('searchControl',function ($scope,$http) {
+app.controller('searchControl',['$scope','$http',function ($scope,$http) {
     $scope.num = 1;
     function dj () {
         $scope.arr = [];
@@ -108,4 +108,4 @@ app.controller('searchControl',function ($scope,$http) {
         $scope.num = 8;
         dj()
     }
-})
+}])

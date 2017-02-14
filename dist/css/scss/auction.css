@@ -1,0 +1,19 @@
+.acu * { margin: 0; padding: 0; }
+.acu img { border: 0; }
+.acu ol, .acu ul, .acu li { list-style: none; }
+.acu body, .acu html { font-size: 25px; color: #a8a8a8; }
+.acu header { width: 100%; height: 1.8rem; background: #fa000a; line-height: 1.8rem; padding-left: 0.5rem; }
+.acu header > span { padding-left: 3.5rem; font-size: 0.8rem; color: white; }
+.acu .goods { width: 100%; height: 2rem; display: flex; line-height: 2rem; font-size: 0.5rem; text-align: center; color: #eaeaea; }
+.acu .goods > a { flex: 1; }
+.acu .order { width: 100%; height: 1.5rem; line-height: 1.5rem; display: flex; text-align: center; }
+.acu .order > p { flex: 1; font-size: 0.4rem; }
+.acu .order .redorder { color: red; }
+.acu .content { width: 100%; margin-top: 0.2rem; font-size: 0.4rem; }
+.acu .aucContent { width: 100%; height: 2.5rem; overflow: hidden; display: flex; }
+.acu .aucContent > div:nth-child(1) { flex: 1; }
+.acu .aucContent > div:nth-child(1) > img { width: 60%; margin-left: 0.3rem; }
+.acu .aucContent > div:nth-child(2) > p:nth-child(1) > span { font-weight: bold; }
+.acu .aucContent > div:nth-child(2) > p:nth-child(3) > span { color: green; }
+.acu .aucContent > div:nth-child(2) { flex: 2; margin-left: 0.1rem; line-height: 0.7rem; }
+.acu .aucContent > div:nth-child(3) { flex: 1; margin-left: 0.1rem; line-height: 0.7rem; }

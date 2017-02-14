@@ -1,0 +1,69 @@
+.home * { margin: 0; padding: 0; }
+.home html { font-size: 25px; }
+.home ul, .home li { list-style: none; }
+.home a { text-decoration: none; }
+.home #wrap { width: 100%; background: #f5f5f5; }
+.home nav { width: 100%; height: 1.8rem; background-color: #e63535; display: flex; position: fixed; left: 0; top: 0; z-index: 1000; }
+.home nav > a > img { width: 50%; margin-top: 0.2rem; }
+.home nav > a > p { color: #fff; margin-top: -0.2rem; font-size: 0.2rem; }
+.home #root { width: 70%; margin-top: 0.3rem; margin-bottom: 0.3rem; height: 1.2rem; overflow: hidden; border-radius: 0.2rem; background: #b32929; }
+.home #root > img { float: left; margin-top: 0.2rem; width: 10%; margin-left: 5%; }
+.home #root > input { width: 85%; height: 1.2rem; float: left; border: none; background-color: #b32929; }
+.home #root > input:-webkit-input-placeholder { color: #fff; }
+.home #root > input::-webkit-input-placeholder { color: #fff; }
+.home nav > a { flex: 1; text-align: center; }
+.home .swiper-container { width: 100%; margin-top: 1.8rem; }
+.home .swiper-container img { width: 100%; }
+.home #menu { width: 100%; display: flex; /*margin-top:6rem;*/ background: #fff; }
+.home #menu > a { flex: 1; text-align: center; color: #000; }
+.home #menu > a > p { font-size: 0.5rem; }
+.home #menu1 { width: 100%; display: flex; background: #fff; }
+.home #menu1 > a { flex: 1; text-align: center; color: #000; margin-top: 0.5rem; }
+.home #menu1 > a > p { font-size: 0.5rem; margin-bottom: 0.8rem; }
+.home #title { width: 100%; overflow: hidden; font-size: 0.5rem; background: #fff; margin-top: 0.5rem; }
+.home #title > p { color: orange; float: left; line-height: 2rem; }
+.home #title > p > img { width: 30%; margin-top: 0.2rem; margin-left: 0.2rem; }
+.home #title > a { float: right; color: gray; line-height: 2rem; margin-right: 0.3rem; }
+.home #title-main { width: 80%; float: left; margin-left: 5%; }
+.home #title-main > p { line-height: 1rem; }
+.home #title-main > p > span { display: inline-block; color: #fff; background: orange; padding: 0 0.2rem; margin-right: 0.3rem; }
+.home #auction { width: 100%; background: #fff; margin-top: 0.5rem; font-size: 0.4rem; }
+.home #auction > p { width: 100%; overflow: hidden; line-height: 1.5rem; border-bottom: 1px solid #eee; }
+.home #auction > p > img { float: left; width: 5%; margin-top: 0.5rem; margin-left: 0.1rem; }
+.home #auction > p > span { color: #45bb0f; margin-left: 0.2rem; float: left; }
+.home #auction > p > a { float: right; color: gray; margin-right: 0.3rem; }
+.home #auction > ul { width: 90%; margin-left: 5%; overflow: hidden; color: gray; margin-top: 0.5rem; border-bottom: 1px solid #eee; padding-bottom: 0.3rem; }
+.home #auction > ul > li { float: left; }
+.home #auction > ul > li:nth-child(1) { width: 20%; }
+.home #auction > ul > li:nth-child(1) img { width: 100%; }
+.home #auction > ul > li:nth-child(2) { width: 60%; margin-left: 2%; }
+.home #auction > ul > li:nth-child(2) > p { line-height: 0.8rem; }
+.home #auction > ul > li:nth-child(2) > p:nth-child(1) > span { color: #000; }
+.home #auction > ul > li:nth-child(2) > p:nth-child(3) > span { color: #45bb0f; border: 1px solid #45bb0f; padding: 0.05rem; border-radius: 2px; }
+.home #auction > ul > li:nth-child(3) { width: 15%; }
+.home #auction > ul > li:nth-child(3) > p:nth-child(2) { color: red; margin-top: .3rem; font-weight: 100; }
+.home #select { width: 100%; background: #fff; font-size: 0.4rem; }
+.home #select > p { width: 100%; overflow: hidden; line-height: 1.5rem; border-bottom: 1px solid #eee; }
+.home #select > p > img { float: left; width: 6%; margin-top: 0.4rem; margin-left: 0.1rem; }
+.home #select > p > span { color: red; float: left; margin-left: 0.2rem; }
+.home #select > p > a { float: right; color: gray; margin-right: 0.3rem; }
+.home #select > ul { width: 90%; margin-left: 5%; overflow: hidden; margin-top: 0.5rem; border-bottom: 1px solid #eee; }
+.home #select > ul > li { float: left; }
+.home #select > ul > li:nth-child(1) { width: 20%; }
+.home #select > ul > li:nth-child(1) img { width: 100%; }
+.home #select > ul > li:nth-child(2) { width: 60%; margin-left: 3%; line-height: 1rem; }
+.home #select > ul > li:nth-child(2) > p:nth-child(2) { color: red; }
+.home #select > ul > li:nth-child(3) { width: 15%; }
+.home #select > ul > li:nth-child(3) > p:nth-child(1) { color: gray; line-height: 1rem; }
+.home #select > ul > li:nth-child(3) > p:nth-child(2) { color: red; }
+.home #advise { width: 100%; background: #fff; overflow: hidden; font-size: 0.5rem; }
+.home #advise > p { width: 100%; overflow: hidden; line-height: 1.5rem; border-bottom: 1px solid #eee; }
+.home #advise > p > img { float: left; width: 6%; margin-top: 0.4rem; margin-left: 0.1rem; }
+.home #advise > p > span { color: red; float: left; margin-left: 0.2rem; }
+.home #advise > p > a { float: right; color: gray; margin-right: 0.3rem; }
+.home #advise > a { width: 45%; margin-top: 0.5rem; margin-bottom: 0.5rem; float: left; margin-left: 5%; overflow: hidden; }
+.home #advise > a > img { float: left; width: 30%; }
+.home #advise > a > p { float: left; width: 65%; margin-left: 5%; }
+.home #advise > a > p > span { display: block; width: 100%; line-height: 0.8rem; }
+.home #advise > a > p > span:nth-child(1) { color: #000; }
+.home #advise > a > p > span:nth-child(2) { color: blue; }

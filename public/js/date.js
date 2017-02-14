@@ -1,4 +1,4 @@
-app.controller('hm7Control',function($scope,$http){
+app.controller('hm7Control',['$scope','$http',function($scope,$http){
 	function dj(){
 	$scope.dateArr = [];	
 	$http({
@@ -23,4 +23,4 @@ app.controller('hm7Control',function($scope,$http){
 	$scope.fore = function(){
 		dj();
 	}
-})
+}])

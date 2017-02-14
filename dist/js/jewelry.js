@@ -1,0 +1,1 @@
+app.controller("hm5Control",["$scope","$http",function(t,n){function o(){t.jewelryArr=[],n({url:"http://127.0.0.1:6587/list5",method:"get"}).success(function(n){t.jewelryArr=n.equip_list})}o(),t.one=function(){o()},t.two=function(){o()},t.three=function(){o()},t.fore=function(){o()}}]);

@@ -1,0 +1,1 @@
+app.controller("hm2Control",["$scope","$http",function(o,n){function t(){o.manArr=[],n({url:"http://127.0.0.1:6587/list2",method:"get"}).success(function(n){o.manlist=n.order_headers,o.manArr=n.equip_list,console.log(o.manlist),console.log(o.manArr)})}t()}]);

@@ -1,0 +1,20 @@
+.clt * { margin: 0; padding: 0; }
+.clt body { background: #fff; }
+.clt ul, .clt li { list-style: none; }
+.clt a { text-decoration: none; }
+.clt html { font-size: 25px; }
+.clt #wrap { width: 100%; }
+.clt #coll { width: 100%; height: 1.8rem; background: #e63535; font-size: 0.8rem; line-height: 1.8rem; overflow: hidden; text-align: center; border-bottom: 0.3rem solid #eee; }
+.clt #coll > a { float: left; color: #fff; width: 15%; }
+.clt #coll > p { float: left; color: #fff; width: 70%; }
+.clt #man-center { width: 100%; margin-top: 0.5rem; font-size: 0.4rem; }
+.clt #man-center > ul { width: 100%; }
+.clt .man-js { display: flex; border-bottom: 1px solid #eee; padding: 0.3rem 0; width: 90%; margin: 0 auto; }
+.clt .man-js > div:nth-child(1) { flex: 1; }
+.clt .man-js > div:nth-child(1) > img { width: 80%; }
+.clt .man-js > div:nth-child(2) { margin-top: 0.2rem; width: 7rem; margin-left: 0.2rem; }
+.clt .man-js > div:nth-child(2) > p:nth-child(1) { color: #000; }
+.clt .man-js > div:nth-child(2) > p:nth-child(1) > span { color: #828282; }
+.clt .man-js > div:nth-child(2) > p:nth-child(2) { color: #828282; font-size: 0.5rem; font-weight: 300; margin-top: 0.2rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.clt .man-js > div:nth-child(3) { margin-top: 0.2rem; flex: 1; text-align: center; }
+.clt .man-js > div:nth-child(3) > p:nth-child(2) { color: red; font-weight: 600; margin-top: 0.2rem; }

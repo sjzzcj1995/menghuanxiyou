@@ -1,0 +1,1 @@
+app.controller("hm4Control",["$scope","$http",function(o,r){function t(){o.propArr=[],r({url:"http://127.0.0.1:6587/list4",method:"get"}).success(function(r){o.propArr=r.equip_list,console.log(o.propArr)})}t()}]);

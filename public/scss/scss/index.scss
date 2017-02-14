@@ -1,0 +1,71 @@
+.ind{
+    *{
+        margin: 0;
+        padding: 0;
+        color: #777;
+    }
+    html{
+        font-size: 25px;
+    }
+    img{
+        border:0;
+    }
+    ol, ul ,li{list-style: none;} 
+    a {
+        text-decoration: none;
+        color: #777;
+    }
+    body {
+        background-color: #efefef;
+    }
+    #tabbar {
+        width: 100%;
+        height: 1.96rem;
+        display: flex;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        background: #fff; 
+    }
+    #tabbar>li {
+        flex: 1;
+        text-align: center;
+    }
+    #tabbar>li>a>p{
+        font-size: 0.1rem;
+    }
+    #tabbar>li>a>div {
+        height: 1.2rem;
+        width: 38%;
+        margin: auto;
+        
+    }
+    #tabbar .tabbar-img1 {
+       background: url(../imgs/first.jpg) no-repeat center center;
+    }
+    #tabbar .tabbar-img1-1 {
+         background: url(../imgs/first-1.jpg) no-repeat;
+    }
+    #tabbar .tabbar-img2 {
+         background: url(../imgs/sec.jpg) no-repeat;
+    }
+    #tabbar .tabbar-img2-1 {
+         background: url(../imgs/sec-1.jpg) no-repeat;
+    }
+    #tabbar .tabbar-img3 {
+         background: url(../imgs/thr.jpg) no-repeat;
+    }
+    #tabbar .tabbar-img3-1 {
+         background: url(../imgs/thr-1.jpg) no-repeat;
+    }
+    #tabbar .tabbar-img4 {
+         background: url(../imgs/four.jpg) no-repeat;
+    }
+    #tabbar .tabbar-img4-1 {
+         background: url(../imgs/four-1.jpg) no-repeat;
+    }
+    #tabbar a {
+                text-decoration: none;
+                color: #777;
+    }
+}

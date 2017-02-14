@@ -1,0 +1,19 @@
+.ind * { margin: 0; padding: 0; color: #777; }
+.ind html { font-size: 25px; }
+.ind img { border: 0; }
+.ind ol, .ind ul, .ind li { list-style: none; }
+.ind a { text-decoration: none; color: #777; }
+.ind body { background-color: #efefef; }
+.ind #tabbar { width: 100%; height: 1.96rem; display: flex; position: fixed; bottom: 0; left: 0; background: #fff; }
+.ind #tabbar > li { flex: 1; text-align: center; }
+.ind #tabbar > li > a > p { font-size: 0.1rem; }
+.ind #tabbar > li > a > div { height: 1.2rem; width: 38%; margin: auto; }
+.ind #tabbar .tabbar-img1 { background: url(../imgs/first.jpg) no-repeat center center; }
+.ind #tabbar .tabbar-img1-1 { background: url(../imgs/first-1.jpg) no-repeat; }
+.ind #tabbar .tabbar-img2 { background: url(../imgs/sec.jpg) no-repeat; }
+.ind #tabbar .tabbar-img2-1 { background: url(../imgs/sec-1.jpg) no-repeat; }
+.ind #tabbar .tabbar-img3 { background: url(../imgs/thr.jpg) no-repeat; }
+.ind #tabbar .tabbar-img3-1 { background: url(../imgs/thr-1.jpg) no-repeat; }
+.ind #tabbar .tabbar-img4 { background: url(../imgs/four.jpg) no-repeat; }
+.ind #tabbar .tabbar-img4-1 { background: url(../imgs/four-1.jpg) no-repeat; }
+.ind #tabbar a { text-decoration: none; color: #777; }

@@ -1,0 +1,1 @@
+app.controller("hm7Control",["$scope","$http",function(t,n){function o(){t.dateArr=[],n({url:"http://127.0.0.1:6587/list6",method:"get"}).success(function(n){t.dateArr=n.equip_list})}o(),t.one=function(){o()},t.two=function(){o()},t.three=function(){o()},t.fore=function(){o()}}]);
